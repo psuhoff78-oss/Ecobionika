@@ -14,7 +14,7 @@
  * Пока не задан — виджет работает локально (localStorage, пометки видны
  * только вам), чтобы сайт не ломался.
  */
-const SITEPING_ENDPOINT = "";
+const SITEPING_ENDPOINT = "https://ecobionika.vercel.app/api/siteping";
 
 const common = {
   projectName: "ecobionika", // должно совпадать с SITEPING_PROJECT на сервере

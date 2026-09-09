@@ -43,7 +43,7 @@ async function boot() {
     console.error("[siteping] siteping-widget.global.js не загрузился");
     return;
   }
-
+  if (SITEPING_DISABLED) return;
   let config;
   if (SITEPING_ENDPOINT) {
     config = { ...common, endpoint: SITEPING_ENDPOINT };

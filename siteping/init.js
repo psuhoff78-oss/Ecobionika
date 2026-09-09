@@ -15,6 +15,7 @@
  * только вам), чтобы сайт не ломался.
  */
 const SITEPING_ENDPOINT = "https://ecobionika.vercel.app/api/siteping";
+const SITEPING_DISABLED = true;
 
 const common = {
   projectName: "ecobionika", // должно совпадать с SITEPING_PROJECT на сервере
